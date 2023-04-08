@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>光頭炸雞</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column {
+	flex: 1;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+.column:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.column img {
+	max-width: 100%;
+	height: auto;
+}
+nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav-list {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-list li {
+        margin: 0 10px;
+    }
+    
+    .nav-list li a {
+        text-decoration: none;
+    }
+	.nav-list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-list li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.nav-list li a:hover {
+    color: #fff;
+    background-color: #555;
+}
+.nav-list li {
+  margin-right: 20px;
+  
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+.center {
+    text-align: center;
+}
+body {
+  background-image: linear-gradient(to right, #f6fa00, #fd5d00);
+}
+        
+    </style>
+</head>
+<nav  class="nav">
+    <ul class="nav-list">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="品牌故事.html">品牌故事</a></li>
+        <li><a href="美味菜單.html">美味菜單</a></li>
+        <li><a href="攤位據點.html">攤位據點</a></li>
+        <li><a href="加盟資訊.html">加盟資訊</a></li>
+    </ul>
+</nav>
+
+<main>
+	<div class="center">
+    	<h1 style="text-align: center; color: rgb(255, 255, 255);">光頭炸雞</h1>
+    	<p style="text-align: center; color: rgb(255, 255, 255);">炸雞新風潮，光頭最好吃！</p>
+	</div>
+</main>
+
+
+<body>
+	<div class="container">
+		<div class="column">
+			<h2>炸雞翅</h2>
+			<img src="炸雞翅.jpg" alt="Image 1">
+			<p>5支 100元</p>
+		</div>
+		<div class="column">
+			<h2>雞脖子</h2>
+			<img src="雞脖子.jpg" alt="Image 2">
+			<p>10支 100元</p>
+		</div>
+		<div class="column">
+			<h2>雞排</h2>
+			<img src="雞排.jpg" alt="Image 3">
+			<p>2片 100元</p>
+		</div>
+	</div>
+</body>
+<footer>
+    <p>&copy; 2023 光頭炸雞</p>
+</footer>
+</html>
